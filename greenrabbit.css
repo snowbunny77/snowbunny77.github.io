@@ -229,3 +229,14 @@ a.history:link {
     background-color: khaki;
     color: rgb(116, 116, 10);
 }
+a.lang:link {
+    padding: 10px 19px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-style: groove;
+    border-width: 2px;
+    border-color: black;
+    background-color: lavenderblush;
+    color: rgb(105, 10, 55);
+}
