@@ -1,0 +1,231 @@
+body {
+    background-color: honeydew;
+}
+h1 {
+    color: darkblue;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-bottom-style: double;
+    border-left-style: hidden;
+    border-width: 5px;
+    text-align: center;
+    font-size: 32px;
+}
+h2 {
+    color: cadetblue;
+    text-align: center;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-bottom-style: solid;
+    border-left-style: hidden;
+    border-width: 3px;
+    font-size: 28px;
+}
+h3 {
+    color: darkcyan;
+    text-align: center;
+}
+#quiz {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #66ebf0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(198, 222, 60, 0.2);
+}
+#question {
+    margin-bottom: 20px;
+}
+#options {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+}
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: rgb(227, 238, 10);
+    color: #131313;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #8f8d8d;
+}
+p {
+    word-spacing: 2px;
+    font-size: 18px;
+}
+ol {
+    font-size: 24px;
+}
+#hub {
+    text-align: center;
+}
+a.class1:link {
+    padding: 10px 19px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-style: groove;
+    border-width: 2px;
+    border-color: black;
+    background-color: lightcoral;
+    color: rgb(78, 13, 13);
+}
+a.psychology:link {
+    padding: 10px 19px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-style: groove;
+    border-width: 2px;
+    border-color: black;
+    background-color: lavender;
+    color: darkorchid;
+}
+a.physscience:link {
+    padding: 10px 19px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-style: groove;
+    border-width: 2px;
+    border-color: black;
+    background-color: powderblue;
+    color: teal;
+}
+a.lit:link {
+    padding: 10px 19px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-style: groove;
+    border-width: 2px;
+    border-color: black;
+    background-color: rgb(253, 228, 253);
+    color: slateblue;
+}
+a.tech:link {
+    padding: 10px 19px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-style: groove;
+    border-width: 2px;
+    border-color: black;
+    background-color: lightblue;
+    color: rgb(26, 67, 100);
+}
+a.Lifescience:link {
+    padding: 10px 19px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-style: groove;
+    border-width: 2px;
+    border-color: black;
+    background-color: palegreen;
+    color: seagreen;
+}
+a.geo:link {
+    padding: 10px 19px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-style: groove;
+    border-width: 2px;
+    border-color: black;
+    background-color: lightgray;
+    color: darkslategray;
+}
+a.socscience:link {
+    padding: 10px 19px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-style: groove;
+    border-width: 2px;
+    border-color: black;
+    background-color: lightgoldenrodyellow;
+    color: darkgoldenrod;
+}
+a.math:link {
+    padding: 10px 19px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-style: groove;
+    border-width: 2px;
+    border-color: black;
+    background-color: lightblue;
+    color: midnightblue;
+}
+a.philo:link {
+    padding: 10px 19px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-style: groove;
+    border-width: 2px;
+    border-color: black;
+    background-color: mediumpurple;
+    color: indigo;
+}
+a.profskills:link {
+    padding: 10px 19px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-style: groove;
+    border-width: 2px;
+    border-color: black;
+    background-color: lightslategray;
+    color: rgb(33, 33, 33);
+}
+a.physhealth:link {
+    padding: 10px 19px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-style: groove;
+    border-width: 2px;
+    border-color: black;
+    background-color: darkseagreen;
+    color: darkgreen;
+}
+a.rel:link {
+    padding: 10px 19px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-style: groove;
+    border-width: 2px;
+    border-color: black;
+    background-color: tan;
+    color: sienna;
+}
+a.am:link {
+    padding: 10px 19px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-style: groove;
+    border-width: 2px;
+    border-color: black;
+    background-color: sandybrown;
+    color: rgb(85, 27, 12);
+}
+a.history:link {
+    padding: 10px 19px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-style: groove;
+    border-width: 2px;
+    border-color: black;
+    background-color: khaki;
+    color: rgb(116, 116, 10);
+}
